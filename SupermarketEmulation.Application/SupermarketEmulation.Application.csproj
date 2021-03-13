@@ -1,12 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SupermarketEmulation.Application\SupermarketEmulation.Application.csproj" />
+    <ProjectReference Include="..\SupermarketEmulation.Domain\SupermarketEmulation.Domain.csproj" />
   </ItemGroup>
 
 </Project>
